@@ -1,0 +1,42 @@
+# ==========================================================
+#  Win11Tweaker - .gitignore
+# ==========================================================
+
+# ---------- 執行時產生的目錄（保留 .gitkeep 維持目錄結構） ----------
+Config/*
+!Config/.gitkeep
+
+Progress/*
+!Progress/.gitkeep
+
+Reports/*
+!Reports/.gitkeep
+
+# ---------- 還原備份：保留 README.md，排除執行時產生的備份檔 ----------
+Restore/*.json
+Restore/*.log
+Restore/*.bak
+
+# ---------- 系統暫存檔 ----------
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+
+# ---------- 編輯器 / IDE ----------
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ---------- PowerShell 特有 ----------
+*.ps1xml.bak
+
+# ---------- Windows 系統目錄 ----------
+$RECYCLE.BIN/
+System Volume Information/
