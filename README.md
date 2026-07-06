@@ -390,7 +390,7 @@ Language / 語言
 
 本專案採 **MIT License** 釋出。
 
-GitHub：dincht55/DCT
+GitHub：dincht55/Win11Tweaker
 
 \---
 
