@@ -1,0 +1,36 @@
+# ==========================================================
+#  Win11Tweaker - .gitattributes
+# ==========================================================
+
+* text=auto
+
+# ---------- PowerShell 檔案：強制 CRLF 行尾 ----------
+*.ps1  text eol=crlf
+*.psd1 text eol=crlf
+*.psm1 text eol=crlf
+*.ps1xml text eol=crlf
+
+# ---------- 說明文件 ----------
+*.md  text eol=lf
+*.txt text eol=lf
+
+# ---------- 設定檔 ----------
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# ---------- GitHub 語言統計 ----------
+*.ps1  linguist-language=PowerShell
+*.psd1 linguist-language=PowerShell
+*.psm1 linguist-language=PowerShell
+
+# ---------- 二進位檔案 ----------
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.7z   binary
+*.exe  binary
+*.dll  binary
